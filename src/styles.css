@@ -1,0 +1,201 @@
+* {
+  box-sizing: border-box;
+}
+
+.Rocket {
+  width: 40%;
+}
+.Search {
+  border: none;
+  margin: 8px 0;
+  padding-left: 30px;
+  border-radius: 10px;
+  font-size: 15px;
+}
+.IconSearch {
+  position: absolute;
+  margin-top: 20px;
+  margin-left: 8px;
+  /* border-style: solid; border-color: blue; */
+}
+
+.Promotion {
+  background-color:rgba(137, 104, 104, 0.5);
+  box-shadow: 5px 10px #888888;
+  display: flex;
+  height: 8vw;
+  margin: 10px 50px;
+  border-radius: 30px;
+}
+.Promo {
+  width: 80%;
+  padding: 0 15% 0 0;
+  display: flex;
+}
+.PromotionLogo {
+  height: 8vw;
+  padding: 5px 0 5px 100%;
+}
+#P1 img {
+  background-color: white;
+  display: flex;
+  width: 10vw;
+  margin: 7px;
+  padding: 0px 10px;
+}
+.PromoText {
+  text-align: center;
+  margin: 0px;
+  font-weight: bolder;
+  font-style: italic;
+}
+
+/* .PromotionContainer {
+  margin: 15px 30px;  
+}
+.Promotion {
+  height: 10vw;
+  background-color:rgb(176, 42, 42);
+  display: flex;
+  padding-left: 10vw;
+}
+.PromotionLogo {
+  height: 10vw;
+}
+.PromoLeft {
+  padding-left: 10%;
+}
+.PromoRight {
+  padding-left: 10%;
+  margin: 20px 0px;
+  display: flex;
+}
+.PromoRight p {
+  display: inline-block;
+}
+.PromoText {
+  text-align: center;
+}
+#PromoLogoRightID {
+  background-color:#faaa5e ;
+  border-style: solid; border-color: blue;
+  border-style: solid; border-color: green;
+} */
+.Promotion::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+
+
+.containerStore {
+  display: flex;
+  /* padding-left: 30px; */
+  /* width:50%; */
+}
+
+.Rockbell {
+  background-color: white;
+  margin: 10px;
+  width: 40%;
+}
+#ColID {
+  text-align: left;
+  margin: 0 5vw;
+}
+.Col p {
+  padding-top: .5vw;
+}
+.RockbellPerling::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.RockbellCafe {
+  background-color: white;
+  margin:25px;
+  /* border-style: solid;
+  border-color: green */
+}
+
+.RockbellCafe::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.RockbellPuchong {
+  background-color: white;
+  margin:25px;
+}
+
+.RockbellPuchong::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+p {
+  margin: 0;
+  font-size: small;
+}
+p.TextHeader {
+  color: #f19e28;
+  font-weight: 700
+}
+p.TextStoreName {
+  font-weight: 700;
+}
+
+body {
+  margin: 0;
+  background-color: #f2f2f2;
+}
+
+.container {
+  margin: 1rem;
+  text-align: center;
+}
+
+.nav {  
+  background-color: #faaa5e;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+  gap: 2rem;
+  padding: 0 1rem;
+}
+
+.site-title {
+  font-size: 2rem;
+}
+
+.nav ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+}
+
+.nav a {
+  color: inherit;
+  text-decoration: none;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  padding: .25rem;
+}
+
+.nav li.active {
+  background-color: #555;
+}
+
+.nav li:hover {
+  background-color: #777;
+}
